@@ -10,6 +10,7 @@
   background-attachment: fixed;
   display: flex;
   align-items: center;
+  font-size: 1em;
 
   &::before {
     content: "";
@@ -22,14 +23,14 @@
   .Hero__title {
     color: $white;
     margin: 0 0 0 15%;
-    font-size: 3.5rem;
+    font-size: 3.5em;
     position: relative;
     font-weight: 900;
 
     &::before {
       content: "";
       position: absolute;
-      bottom: -20px;
+      bottom: -30px;
       left: 0;
       width: 45%;
       height: 5px;
