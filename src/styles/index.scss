@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,900&display=swap");
+@font-face {
+  font-family: "Black-forest";
+  src: url("../fonts/BlackForestSans.ttf") format("truetype");
+}
 @import "global";
 @import "vars";
 @import "breakpoints";
@@ -6,3 +11,8 @@
 @import "./components/hero";
 @import "./components/verticalnav.scss";
 @import "./components/socialbar.scss";
+@import "./components/about.scss";
+@import "./components/skillbox.scss";
+@import "./components/iconsbar.scss";
+@import "./components/myname.scss";
+@import "./components/footer.scss";

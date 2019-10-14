@@ -3,6 +3,9 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Hero from "../components/Hero"
+import About from "../components/About"
+import IconsGreenBar from "../components/IconsGreenBar"
+import Footer from "../components/Footer"
 
 const IndexPage = () => (
   <Layout>
@@ -15,6 +18,9 @@ const IndexPage = () => (
       ]}
     />
     <Hero />
+    <About />
+    <IconsGreenBar />
+    <Footer />
   </Layout>
 )
 

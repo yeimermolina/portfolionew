@@ -13,7 +13,6 @@ import "../styles/index.scss"
 const Layout = ({ children }) => (
   <div className="Layout">
     <main>{children}</main>
-    <footer>footer</footer>
   </div>
 )
 

@@ -1,0 +1,31 @@
+.IconsGreenBar {
+  background-color: $green;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  svg {
+    fill: #cccccc;
+    // width: 60px;
+    // height: 60px;
+  }
+
+  &__icon {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+
+    span {
+      max-width: 120px;
+      color: #656565;
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+}
