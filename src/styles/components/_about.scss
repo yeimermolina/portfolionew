@@ -1,7 +1,6 @@
 .About {
   position: relative;
   background-color: $lightgray;
-  //   min-height: 60vh;
 
   &::before {
     content: "";
@@ -13,20 +12,32 @@
   }
 
   .About__inner {
-    padding: 9em 2em 3em;
+    padding: 6em 2em 3em;
     max-width: 800px;
     margin: 0 auto;
     z-index: 999;
     position: relative;
+
+    @include breakpoint("xsmall") {
+      padding: 9em 2em 3em;
+    }
   }
 
   .About__title {
-    font-size: 1.5em;
+    font-size: 1.2em;
+
+    @include breakpoint("xsmall") {
+      font-size: 1.5em;
+    }
   }
 
   .About__description {
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1.6em;
+
+    @include breakpoint("xsmall") {
+      font-size: 1.1em;
+    }
   }
 
   .About__skills {

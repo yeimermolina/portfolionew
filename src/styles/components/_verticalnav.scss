@@ -4,8 +4,12 @@
   bottom: 100px;
   transform: rotate(270deg);
   transform-origin: 0 100%;
-  display: flex;
+  display: none;
   align-items: center;
+
+  @include breakpoint("medium") {
+    display: flex;
+  }
 
   .VerticalNav__link {
     margin-right: 3em;
