@@ -1,7 +1,7 @@
 import React from "react"
 
 const Projects = () => (
-  <section className="Projects">
+  <section id="projects" className="Projects">
     <div className="Projects__items Projects__item-1">
       <div className="Projects__item-hover">
         <div className="Projects__item-above" />
@@ -9,13 +9,16 @@ const Projects = () => (
           <span className="Projects__item-tech">HTLM / CSS / JAVASCRIPT</span>
           <h5 className="Projects__item-title">PEPPER</h5>
           <p className="Projects__item-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
+            Translate Invision designs into Html / Css3 theme for an E-Commerce
+            site.
+            <br />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://peppertogether.com/"
+            >
+              See more
+            </a>
           </p>
         </div>
       </div>
@@ -24,16 +27,10 @@ const Projects = () => (
       <div className="Projects__item-hover">
         <div className="Projects__item-above" />
         <div className="Projects__item-inside">
-          <span className="Projects__item-tech">HTLM / CSS / JAVASCRIPT</span>
+          <span className="Projects__item-tech">Gatsby / CSS3 / HTML</span>
           <h5 className="Projects__item-title">PARROSPACE</h5>
           <p className="Projects__item-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
+            Transform designs into React components for a Coworking website.
           </p>
         </div>
       </div>
@@ -42,10 +39,11 @@ const Projects = () => (
       <div className="Projects__item-hover">
         <div className="Projects__item-above" />
         <div className="Projects__item-inside">
-          <span className="Projects__item-tech">HTLM / CSS / JAVASCRIPT</span>
-          <h5 className="Projects__item-title">MYOPAIN</h5>
+          <span className="Projects__item-tech">Vuejs / Vuex / Aggrid</span>
+          <h5 className="Projects__item-title">Event Planner Project</h5>
           <p className="Projects__item-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            Development of an admin website for managing Major and Minor Events
+            for a Sport Retail Business.
           </p>
         </div>
       </div>
@@ -54,9 +52,11 @@ const Projects = () => (
       <div className="Projects__item-hover">
         <div className="Projects__item-above" />
         <div className="Projects__item-inside">
-          <h5 className="Projects__item-title">BLOG MYOPAIN</h5>
+          <span className="Projects__item-tech">ReactJS / NextJS / Axios</span>
+          <h5 className="Projects__item-title">Dry Needling Project</h5>
           <p className="Projects__item-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            API integration for admin and public pages of a website dedicated to
+            sell online and onsite Dry Needling courses.
           </p>
         </div>
       </div>
@@ -65,9 +65,17 @@ const Projects = () => (
       <div className="Projects__item-hover">
         <div className="Projects__item-above" />
         <div className="Projects__item-inside">
-          <h5 className="Projects__item-title">TASKS API</h5>
+          <span className="Projects__item-tech">ReactJS/ NodeJs / Express</span>
+          <h5 className="Projects__item-title">Places Share</h5>
           <p className="Projects__item-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            Development of Frontend and Backend for an image share project.
+            <br />
+            <a
+              href="https://github.com/yeimermolina/cool-places-frontend"
+              target="_blank"
+            >
+              See More
+            </a>
           </p>
         </div>
       </div>
@@ -76,16 +84,17 @@ const Projects = () => (
       <div className="Projects__item-hover">
         <div className="Projects__item-above" />
         <div className="Projects__item-inside">
-          <span className="Projects__item-tech">React Native</span>
-          <h5 className="Projects__item-title">MARVEL APP</h5>
+          <span className="Projects__item-tech">React</span>
+          <h5 className="Projects__item-title">React Player</h5>
           <p className="Projects__item-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
+            Development of personal project for a video player application.
+            <br />
+            <a
+              href="https://github.com/yeimermolina/reactVideoPlayer"
+              target="_blank"
+            >
+              See More
+            </a>
           </p>
         </div>
       </div>
@@ -94,15 +103,33 @@ const Projects = () => (
       <div className="Projects__item-hover">
         <div className="Projects__item-above" />
         <div className="Projects__item-inside">
-          <h5 className="Projects__item-title">PARROSPACE</h5>
+          <span className="Projects__item-tech">React / Firebase</span>
+          <h5 className="Projects__item-title">Div Builder</h5>
           <p className="Projects__item-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
+            Personal Project which let users create and save different div
+            configurations.
+            <br />
+            <a
+              href="https://afternoon-garden-48530.herokuapp.com/"
+              target="_blank"
+            >
+              See More
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div className="Projects__items Projects__item-8">
+      <div className="Projects__item-hover">
+        <div className="Projects__item-above" />
+        <div className="Projects__item-inside">
+          <h5 className="Projects__item-title">More</h5>
+          <p className="Projects__item-description">
+            See more projects on my Github Profile!
+            <br />
+            <a href="https://github.com/yeimermolina" target="_blank">
+              See More
+            </a>
           </p>
         </div>
       </div>

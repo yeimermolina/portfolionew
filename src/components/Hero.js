@@ -12,7 +12,7 @@ const Hero = () => (
     </h1> */}
     <MyName isMain />
     <div className="Hero__note">
-      <h2>SOFTWARE DEVELOPER</h2>
+      <h2>FRONTEND DEVELOPER</h2>
       <p>
         Turning ideas and projects into real digital products is my passion.
       </p>

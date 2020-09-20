@@ -31,13 +31,27 @@
       margin-bottom: 0;
     }
 
+    .linkedin g path,
+    .twitter g path {
+      fill: $white;
+    }
+
+    .instagram g path,
+    .linkedin circle,
+    .twitter circle {
+      fill: $darkgray;
+    }
+
+    .instagram:hover g path,
+    .linkedin:hover circle,
+    .twitter:hover circle,
+    .github:hover path {
+      fill: $green;
+    }
+
     svg {
       width: 100%;
       height: 100%;
-
-      &:hover path {
-        fill: $green;
-      }
     }
   }
 }
